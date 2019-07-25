@@ -1,0 +1,34 @@
+.headerContainer {
+    background: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* color:#FDFFFC */
+}
+
+.headerContainer h2 {
+    color: white;
+    padding-left: 6px;
+}
+
+.headerContainer ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.headerContainer ul li {
+    list-style: none;
+    padding-right: 15px;
+}
+
+.headerContainer ul li a {
+    color: white;
+    text-decoration: none;
+}
+.headerContainer ul li a:hover {
+    color: rgb(228, 216, 216);
+    background: rgb(13, 13, 238);
+    height: 2rem;
+}
